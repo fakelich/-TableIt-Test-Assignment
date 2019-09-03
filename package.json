@@ -1,0 +1,19 @@
+{
+  "name": "tableit-test-assignment",
+  "version": "1.0.0",
+  "description": "Тестовое задание на разработчика Front-end. Junior/Junior+",
+  "main": "src/index.html",
+  "repository": "https://github.com/fakelich/-TableIt-Test-Assignment.git",
+  "author": "Mikhail Makarov <m.makarov@jetlyn.ru>",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel": "^1.12.3"
+  },
+  "dependencies": {
+    "axios": "^0.19.0",
+    "bootstrap": "^4.3.1"
+  },
+  "scripts": {
+    "dev": "node --max-old-space-size=2048 node_modules/parcel/bin/cli src/index.html"
+  }
+}
